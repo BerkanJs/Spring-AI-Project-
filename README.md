@@ -72,15 +72,16 @@ Parameters:
 
 Example Request:
 
-bash
-KopierenBearbeiten
+
+
 GET http://localhost:8080/ask-ai?prompt=What is the capital of France?
 
 Response:
 
 json
 
-KopierenBearbeiten
+
+
 
 {
 
@@ -100,17 +101,12 @@ Parameters:
 
 Example Request:
 
-bash
-
-KopierenBearbeiten
-
 GET http://localhost:8080/ask-ai-options?prompt=Generate the names of 5 famous pirates.
 
 Response:
 
 json
 
-KopierenBearbeiten
 
 {
 
@@ -138,9 +134,7 @@ Parameters:
 
 Example Request:
 
-bash
 
-KopierenBearbeiten
 
 GET http://localhost:8080/generate-image?prompt=Sunset over the ocean&quality=hd&n=2&width=1024&height=1024
 
@@ -148,7 +142,7 @@ Response:
 
 json
 
-KopierenBearbeiten
+
 
 {
 
@@ -178,9 +172,7 @@ Parameters:
 
 Example Request:
 
-bash
 
-KopierenBearbeiten
 
 GET http://localhost:8080/recipe-creator?ingredients=eggs,pasta,cheese,milk&cuisine=Italian&dietaryRestrictions=gluten-free
 
@@ -188,7 +180,7 @@ Response:
 
 json
 
-KopierenBearbeiten
+
 
 {
 
@@ -220,9 +212,9 @@ The frontend communicates with these endpoints to create a dynamic user interfac
 
 CORS is configured to allow requests from http://localhost:5173 (or wherever your frontend is hosted). You can modify the allowed origins in WebConfig.java.
 
-java
 
-KopierenBearbeiten
+
+
 
 @Override
 
