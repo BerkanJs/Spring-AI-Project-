@@ -1,52 +1,49 @@
-🌟 Spring AI Demo Project 🤖
+# 🌟 **Spring AI Demo Project** 🤖
 
-Welcome to the Spring AI Demo Project! 🚀 This is a Spring Boot-based application that integrates multiple AI services, including chat, image generation, and recipe creation. With this project, you can interact with OpenAI's GPT-4 model to generate creative text, create images from textual descriptions, and get personalized recipe suggestions. 🍳🍝
+Welcome to the **Spring AI Demo Project**! 🚀  
+This is a Spring Boot-based application that integrates multiple AI services, including **chat**, **image generation**, and **recipe creation**. With this project, you can interact with **OpenAI's GPT-4 model** to generate creative text, create images from textual descriptions, and get personalized recipe suggestions. 🍳🍝
 
-🚀 Features
+---
 
-•	Chat AI 🗣️: Interact with the AI by sending prompts and receiving text-based responses.
+## 🚀 **Features**
 
-•	Image Generation 🖼️: Generate stunning images based on textual prompts with customizable parameters.
+- **Chat AI 🗣️**: Interact with the AI by sending prompts and receiving text-based responses.
+- **Image Generation 🖼️**: Generate stunning images based on textual prompts with customizable parameters.
+- **Recipe Generation 🍽️**: Create recipes based on ingredients, cuisine types, and dietary restrictions.
 
-•	Recipe Generation 🍽️: Create recipes based on ingredients, cuisine types, and dietary restrictions.
+---
 
-🧠 Technologies Used
+## 🧠 **Technologies Used**
 
-•	Spring Boot: Backend framework for creating REST APIs with Java.
+- **Spring Boot**: Backend framework for creating REST APIs with Java.
+- **OpenAI API**: Used for generating text responses (Chat), creating images, and generating recipe instructions.
+- **Java 17**: The programming language used for the backend.
+- **Spring AI**: A custom Spring module to simplify integration with OpenAI's services.
 
-•	OpenAI API: Used for generating text responses (Chat), creating images, and generating recipe instructions.
+---
 
-•	Java 17: The programming language used for the backend.
+## 🔧 **Project Structure**
 
-•	Spring AI: A custom Spring module to simplify integration with OpenAI's services.
+- **ChatService**: Communicates with the Chat GPT-4 model to generate text-based responses.
+- **ImageService**: Interfaces with the OpenAI Image Generation model for generating images.
+- **RecipeService**: Generates detailed recipes based on user input (ingredients, cuisine, dietary restrictions).
+- **GenAIController**: Exposes RESTful API endpoints for chat, image generation, and recipe creation.
+- **WebConfig**: Configures CORS settings to allow requests from the frontend.
 
-🔧 Project Structure
+---
 
-•	ChatService: Communicates with the Chat GPT-4 model to generate text-based responses.
+## ⚡ **Installation Guide**
 
-•	ImageService: Interfaces with the OpenAI Image Generation model for generating images.
+### **Prerequisites**
+- Java 17 or higher
+- Maven or Gradle
+- Spring Boot dependencies (included in `pom.xml`)
 
-•	RecipeService: Generates detailed recipes based on user input (ingredients, cuisine, dietary restrictions).
+### **Setup**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/spring-ai-demo.git
 
-•	GenAIController: Exposes RESTful API endpoints for chat, image generation, and recipe creation.
-
-•	WebConfig: Configures CORS settings to allow requests from the frontend.
-
-⚡ Installation Guide
-
-Prerequisites
-
-1.	Java 17 or higher
-2.	Maven or Gradle
-3.	Spring Boot dependencies (included in pom.xml)
-
-
-Setup
-
-1.	Clone the repository:
-bash
-KopierenBearbeiten
-git clone https://github.com/your-username/spring-ai-demo.git
 2.	Navigate to the project directory:
 bash
 KopierenBearbeiten
